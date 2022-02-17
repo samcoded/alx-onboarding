@@ -1,0 +1,15 @@
+reads in three numbers and writes them all in sorted order
+
+START
+INPUT variable num1;
+INPUT variable num2;
+INPUT variable num3;
+CREATE an array (group of num1,num2, num3)
+CREATE an empty array: result
+SET n=1
+WHILE n lesser than or equal to 3
+	FIND the lowest number (num1, num2, num3)
+		PUSH number to result
+		REMOVE number from array
+PRINT result
+END

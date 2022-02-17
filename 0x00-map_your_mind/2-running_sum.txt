@@ -1,0 +1,16 @@
+Calculate a running sum
+
+START
+SET sum = 0
+SET result = 0
+INPUT numbers
+FOR each number
+	IF number is not negative (greater than or equal to 0)
+		ADD number to sum (sum = sum + number)
+		IF number is the last
+			SET result = sum
+	ELSE (number negative)
+		SET result = sum
+PRINT result
+END
+	
